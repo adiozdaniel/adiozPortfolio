@@ -10,6 +10,7 @@ import NodeCard from './NodeCard';
 import TailwindCard from './TailwindCard';
 import TrpcCard from './TrpcCard';
 import NextJs from './Nextjs';
+import Prisma from './Prisma';
 
 type Props = {}
 
@@ -37,6 +38,7 @@ export default function Experience({}: Props) {
                 <TailwindCard/>
                 <TrpcCard/>
                 <NextJs/>
+                <Prisma/>
             </Carousel>
           
         </motion.div>

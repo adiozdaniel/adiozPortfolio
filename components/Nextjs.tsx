@@ -8,8 +8,8 @@ type Props = {}
 
 export default function NextJs({}: Props) {
     return (
-        <article className="flex flex-col md:flex-row mt-16 rounded-xl items-center
-        space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center 
+        <div className="flex flex-col justify-center md:flex-row mt-16 rounded-xl items-center
+        space-y-7  snap-center 
         p-10 hover:opacity-100 opacity-40 cursor-pointer
         transition-opacity duration-200 overflow-hidden">
             <motion.img 
@@ -20,12 +20,12 @@ export default function NextJs({}: Props) {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true}}
-                className="w-[280px] h-[280px] rounded-full"
+                className="max-w-[280px] h-[280px] rounded-full"
                 src="https://res.cloudinary.com/dashoh/image/upload/v1671603148/avatars/dashoInc/m1mlerduxkc8xyzub463.png"
                 alt='redux'
                  
             />
              
-        </article>
+        </div>
     )
 }

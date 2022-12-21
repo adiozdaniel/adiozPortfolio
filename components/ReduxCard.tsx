@@ -20,13 +20,13 @@ export default function ReduxCard({}: Props) {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true}}
-                className="w-[220px] h-[280px]"
+                className="w-[220px] h-[280px] pr-24"
                 src=" https://res.cloudinary.com/dashoh/image/upload/v1671561978/avatars/dashoInc/hfmgpwrjsqga68dcysg0.png"
                 alt='redux'
                  
             />
              
-                <p className="font-bold text-6xl mr-10">Redux</p>
+                <p className="font-bold text-6xl text-center mr-10">Redux</p>
              
         </article>
     )

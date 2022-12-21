@@ -20,7 +20,7 @@ export default function TrpcCard({}: Props) {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true}}
-                className="w-[220px] h-[320px] mx-6"
+                className="w-[220px] h-[320px] pr-20"
                 src=" https://res.cloudinary.com/dashoh/image/upload/v1671560854/avatars/dashoInc/cx1rz3ajrwyuisvtorri.png"
                 alt='portfolio picture'
                            

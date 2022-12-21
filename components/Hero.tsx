@@ -20,7 +20,7 @@ export default function Hero({}: Props) {
     delaySpeed: 2000,
     })
     return (
-        <div className='h-screen flex flex-col space-y-8 
+        <div className='h-screen flex flex-col space-y-8 -mt-40
         items-center justify-center
         text-center overflow-hidden
         '>
@@ -42,9 +42,7 @@ export default function Hero({}: Props) {
                     </Link>
                     <Link href='#experience'>
                         <button className='heroButton'>Skills</button>
-                    </Link>
-                   
-                    
+                    </Link>                    
                 </div>
             </div>
         </div>

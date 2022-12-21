@@ -19,16 +19,15 @@ export default function Experience({}: Props) {
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className=' flex py-6 justify-center relative overflow-hidden flex-col
-        md:flex-row max-w-full px-10 mx-auto items-center min-h-[280px]'>
-            <p className='absolute top-32 uppercase tracking-[20px]
+        className='flex flex-col w-screen'>
+            <p className=' uppercase tracking-[20px] mt-10 text-center
             text-gray-500 text-2xl'>Skills</p>
             
             <Carousel 
                     autoPlay={true} 
                     infiniteLoop={true} 
-                    centerMode={true}
-                    className='w-full gap-10 space-x-6 p-10 mx-20 left-0'
+                    centerMode={false}
+                    className=''
             >
                 <ReactCard/>
                 <ReduxCard/>

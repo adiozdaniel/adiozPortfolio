@@ -14,7 +14,7 @@ export default function ReactCard() {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true}}
-                className="w-[220px] h-[220px] px-6 mx-6"
+                className="w-[220px] h-[220px]  "
                 src="https://res.cloudinary.com/dashoh/image/upload/v1671557864/avatars/dashoInc/r2ndvybqjnaycglzeqnf.svg"
                 alt='portfolio picture'
                 width={300} height={300}            

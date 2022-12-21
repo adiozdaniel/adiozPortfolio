@@ -28,7 +28,7 @@ export default function Hero({}: Props) {
         '>
             <BackgroundCircles/>
             <img 
-                src="https://res.cloudinary.com/dashoh/image/upload/v1671556028/avatars/dashoInc/idjkkfhv17am7gbulysp.png"
+                src="https://res.cloudinary.com/dashoh/image/upload/v1671610184/avatars/dashoInc/ufpkanrgxnrorqnwew2j.png"
                 alt='portfolio picture'                 
                 className='relative rounded-full h-32 w-32 mx-auto'
             />

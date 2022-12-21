@@ -7,7 +7,7 @@ type Props = {}
 
 export default function Header({}: Props) {
     return (
-        <header className='-mb-32 p-5 flex items-start justify-between max-w-7xl mx-auto z-20
+        <header className=' -mb-32 p-5 flex items-start justify-between max-w-7xl mx-auto
         xl:items-center'>
             <motion.div 
             initial={{
@@ -23,7 +23,7 @@ export default function Header({}: Props) {
             transition={{
                 duration: 1.5,
             }}
-            className='flex flex-row items-center gap-6 text-3xl'>
+            className='z-40 flex flex-row items-center gap-6 text-3xl'>
                 {/* SOCIAL ICONS */}
                 <a href="https://web.facebook.com/adiozdaniel" target="_blank" rel="noreferrer" > 
                     <BsFacebook/>
@@ -51,7 +51,7 @@ export default function Header({}: Props) {
             transition={{
                 duration: 1.5,
             }}
-            className='flex items-center text-gray-300 cursor-pointer'>
+            className='z-40 flex items-center text-gray-300 cursor-pointer'>
             <a href="mailto:adiozdaniel@gmail.com" target="_blank" rel="noreferrer" > 
                     <BsFillEnvelopeFill/>
                      <span className='uppercase -mt-5  hidden md:flex text-sm ml-10 text-gray-400'>Contact me</span>

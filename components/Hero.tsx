@@ -32,7 +32,7 @@ export default function Hero({}: Props) {
                 alt='portfolio picture'                 
                 className='relative rounded-full h-32 w-32 mx-auto'
             />
-            <div className='z-20'>
+            <div className='z-10'>
                 <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Frontend Developer</h2>
                 <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
                     <span className='mr-3 text-blue-400'>{text}</span>

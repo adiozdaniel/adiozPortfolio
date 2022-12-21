@@ -9,6 +9,7 @@ import FramerCard from './FramerCard';
 import NodeCard from './NodeCard';
 import TailwindCard from './TailwindCard';
 import TrpcCard from './TrpcCard';
+import NextJs from './Nextjs';
 
 type Props = {}
 
@@ -36,6 +37,7 @@ export default function Experience({}: Props) {
                 <NodeCard/>
                 <TailwindCard/>
                 <TrpcCard/>
+                <NextJs/>
             </Carousel>
           
         </motion.div>

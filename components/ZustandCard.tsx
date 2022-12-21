@@ -8,9 +8,9 @@ type Props = {}
 
 export default function ZustandCard({}: Props) {
     return (
-        <article className="flex flex-col mt-16 rounded-lg items-center
-        space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center 
-        bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer
+        <article className="md:inline-flex flex-col md:flex-row mt-16 rounded-lg items-center
+        space-y-7  snap-center
+        p-10 hover:opacity-100 opacity-40 cursor-pointer
         transition-opacity duration-200 overflow-hidden">
             <motion.img 
                 initial={{
@@ -20,13 +20,13 @@ export default function ZustandCard({}: Props) {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true}}
-                className=" xl:w-[200px] xl:h-[200px]"
+                className=" "
                 src=" https://res.cloudinary.com/dashoh/image/upload/v1671559062/avatars/dashoInc/ygh08urzbdj0qpnzzh9n.png"
                 alt='zustand'
                           
             />        
 
-            <div className="px-0 md:px-10">               
+                      
                 <p className="font-bold text-4xl mt-1">Zustand</p>
                 {/* <div className="flex space-x-2 my-2">
                     <TbBrandJavascript className="h-10 w-10 rounded-full text-2xl"/>
@@ -34,7 +34,7 @@ export default function ZustandCard({}: Props) {
                     <TbBrandCss3 className="h-10 w-10 rounded-full text-2xl"/>
                 </div> */}
                    
-            </div>
+        
           
         </article>
     )

@@ -4,7 +4,7 @@ export default function ReactCard() {
     return (
         <div className=" mt-16 rounded-lg items-center
          md:w-[600px] xl:w-[900px] mx-10 min-w-full
-        bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer
+         p-10 hover:opacity-100 opacity-40 cursor-pointer
         transition-opacity duration-200 overflow-hidden">
             <motion.img 
                 initial={{

@@ -8,9 +8,9 @@ type Props = {}
 
 export default function NodeCard({}: Props) {
     return (
-        <article className="flex flex-col mt-16 rounded-lg items-center
+        <div className="flex flex-col mt-16 rounded-lg items-center
         space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center 
-        bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer
+         p-10 hover:opacity-100 opacity-40 cursor-pointer
         transition-opacity duration-200 overflow-hidden">
             <motion.img 
                 initial={{
@@ -27,16 +27,16 @@ export default function NodeCard({}: Props) {
                 alt='Node'           
             />        
 
-            <div className="px-0 md:px-10">               
-                <p className="font-bold hidden md:flex text-6xl mr-10">Node Js</p>
+                         
+                <p className="font-bold text-6xl mr-10">Node Js</p>
                 {/* <div className="flex space-x-2 my-2">
                     <TbBrandJavascript className="h-10 w-10 rounded-full text-2xl"/>
                     <TbBrandHtml5 className="h-10 w-10 rounded-full text-2xl"/>
                     <TbBrandCss3 className="h-10 w-10 rounded-full text-2xl"/>
                 </div> */}
                    
-            </div>
           
-        </article>
+          
+        </div>
     )
 }

@@ -13,7 +13,9 @@ export default function Hero({}: Props) {
         words: [
         "Hola, Adioz Daniel ",
         "Frontend Developer ",       
-        "Full Stack Developer"
+        "Full Stack Developer",
+        "Node Js Developer",
+        "Newest Technologies ...Zustand, ...tRPC"
         
     ],
     loop: true,

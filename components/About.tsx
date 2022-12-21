@@ -6,8 +6,7 @@ type Props = {}
 export default function About({}: Props) {
     return (
         <div>
-        <p className='text-center -mb-44 uppercase tracking-[20px] font-semibold
-            text-gray-500 text-3xl'>About</p>
+      
         <motion.div
         initial={{ opacity: 0}}
         whileInView={{ opacity: 1 }}
@@ -31,6 +30,8 @@ export default function About({}: Props) {
                         md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
             />
             <div className='space-y-10 px-0 md:px-10'>
+                  <p className='text-center hidden md:flex lg:flex uppercase tracking-[20px] font-semibold
+            text-gray-500 text-3xl'>About</p>
                 <p 
                 className='text-2xl mt-5 tracking-wider'
                 >🌱 Adioz is a polished developer with a solid understanding in several web development technologies that will make him deliver whatever that is thrown at him. I am passionate about web development; and love challenging jobs.</p>
